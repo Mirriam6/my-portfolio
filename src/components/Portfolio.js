@@ -45,7 +45,7 @@ const Portfolio = () => {
                 </div>
               </div>
               <div className="img-div">
-                <img className="img" src={project.img} alt="" />
+                <img className="img" src={project.img} alt="image" />
               </div>
             </div>
           )
