@@ -1,0 +1,132 @@
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    background: #262626;
+    color: #fff;
+    height: auto;
+}
+
+
+.contact-section {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 50px;
+}
+
+
+.cont-details {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 278px;
+}
+
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.cont-title {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.cont-intro {
+  font-size: 18px;
+  text-align: center;
+  width: 47%;
+  margin: auto;
+  padding: 9px 0px 40px;
+}
+
+.icons {
+  width: 35px;
+  height: 35px;
+  background: aqua;
+  border-radius: 50%;
+  border: 1px solid aqua;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+}
+
+.icon {
+      
+  margin: 5px 4px 1px;
+  font-size: 25px;
+}
+
+.cont-details a{
+  color: white;
+}
+
+.email-phone {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+
+.email-phone input {
+  width: 50%;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  background: #262626;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 11px;
+  height: 130px;
+}
+
+.get-in-touch {
+  width: 110px;
+  background-color: aqua;
+  border-radius: 20px;
+  height: 40px;
+  border: 0;
+}
+
+.location {
+  font-size: small;
+}
+
+.a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (max-width: 599px) {
+  .contact-section {
+    flex-direction: column-reverse;
+  }
+
+  .cont-details {
+    width: auto;
+    height: 176px;
+    margin-left: -54px;
+  }
+
+  .cont-intro {
+    width: 85%;
+  }
+
+}

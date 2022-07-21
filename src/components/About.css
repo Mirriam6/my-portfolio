@@ -1,0 +1,180 @@
+.about {
+    background: #262626;
+    height: auto;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.about-infor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+}
+
+.abt-f-g {
+    text-align: center;
+    font-size: 15px;
+    color: #5bdf9d;
+}
+
+.title-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.abt-head {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.line {
+    display: flex;
+    border: 2px solid #5bdf9d;
+    width: 30px;
+    /* align-items: center;
+    /* margin-left: 148px; 
+    position: absolute;
+    right: 417px; */
+}
+
+.about-intro-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+}
+
+.intro-abt {
+   width: 70%;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 500;
+}
+
+.resume-btn-r {
+    background: #5bdf9d;
+    color: #fff;
+    padding: 10px;
+    width: 130px;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 15.5%;
+    border-radius: 5px;
+}
+
+.services {
+    margin: auto;
+    width: 90%;
+}
+
+.service-title {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.s-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    background: #000;
+    color: #fff;
+    width: 30%;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px #262626;
+    border-bottom:5px solid #5bdf9d;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.cubes, .code, .pen {
+    font-size: 40px;
+    color: #5bdf9d;
+}
+
+.s-card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    background: #000;
+    color: #fff;
+    width: 17%;
+    padding: 4px;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px #262626;
+    border-bottom: 5px solid #5bdf9d;
+    height: 201px;
+    margin-bottom: 50px;
+}
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .services {
+        width: 100%;
+    }
+
+    .s-card {
+        padding: 5;
+        width: 29%;
+        text-align: center;
+        height: auto;
+    }
+
+    .pen {
+        font-size: 30px;
+    }
+
+    .s-card2 {
+        width: 29%;
+        height: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 599px) {
+    .intro-abt {
+    height: auto;
+    width: 86%;
+}
+
+.resume-btn-r {
+    margin-left: 25px;
+}
+
+.s-card {
+    width: auto;
+    margin-bottom: 0;
+}
+
+.s-card2 {
+    width: 40%;
+}
+
+.about {
+    padding-top: 20px;
+}
+}
